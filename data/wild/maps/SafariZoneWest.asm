@@ -1,26 +1,15 @@
 SafariZoneWestWildMons:
 	def_grass_wildmons 30 ; encounter rate
-IF DEF(_RED)
-	db 25, NIDORAN_M
-	db 26, DODUO
-	db 23, VENONAT
-	db 24, EXEGGCUTE
-	db 33, NIDORINO
-	db 26, EXEGGCUTE
-	db 25, NIDORAN_F
-ENDC
-IF DEF(_BLUE)
-	db 25, NIDORAN_F
-	db 26, DODUO
-	db 23, VENONAT
-	db 24, EXEGGCUTE
-	db 33, NIDORINA
-	db 26, EXEGGCUTE
-	db 25, NIDORAN_M
-ENDC
-	db 31, VENOMOTH
-	db 26, TAUROS
-	db 28, KANGASKHAN
+	db   38, VENOMOTH
+	db   32, TAUROS
+	db   34, KANGASKHAN
+	db   30, NIDORAN_M
+	db   32, DODUO
+	db   28, VENONAT
+	db   40, NIDORINA
+	db   40, NIDORINO
+	db   32, EXEGGCUTE
+	db   36, OMANYTE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
