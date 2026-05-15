@@ -1,6 +1,12 @@
-# Pokémon Red and Blue [![Build Status][ci-badge]][ci]
+# Pokémon Red and Blue (Enhanced) [![Build Status][ci-badge]][ci]
 
-This is a disassembly of Pokémon Red and Blue.
+This is a disassembly of Pokémon Red and Blue with enhanced difficulty and content.
+
+**Enhancements:**
+- Merged Red & Blue exclusive Pokémon into wild encounters (all 151 available)
+- All wild and trainer Pokémon levels scaled up by **20%** (capped at level 100)
+- Added missing starters, trade evolutions, and Mew to wild encounters
+- Run `tools/level_up.py` to reapply the level scaling
 
 It builds the following ROMs:
 
